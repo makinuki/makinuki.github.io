@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "updatedAt": 1786969268,
+  "sources": [
+    {
+      "id": "asurascans",
+      "name": "Asura Scans",
+      "version": "0.1.0",
+      "abiVersion": 1,
+      "lang": "en",
+      "baseUrl": "https://asurascans.com",
+      "iconUrl": "https://asurascans.com/favicon.ico",
+      "nsfw": false,
+      "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v0.1.0.wasm",
+      "sha256": "efae8ed31a65438c0e5e84f65040a70a778612c0f31cbd29c82c98f3ea316033",
+      "minRuntimeVersion": "1.0.0"
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "0.1.0",
+      "abiVersion": 1,
+      "lang": "multi",
+      "baseUrl": "https://mangadex.org",
+      "iconUrl": "https://mangadex.org/favicon.ico",
+      "nsfw": false,
+      "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v0.1.0.wasm",
+      "sha256": "786f8b3e9342b584e106b0c484f6b7bbe7e443790928ca0531de61ac97226da6",
+      "minRuntimeVersion": "1.0.0"
+    }
+  ]
+}
