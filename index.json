@@ -12,7 +12,7 @@
       "iconUrl": "https://asurascans.com/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v0.1.0.wasm",
-      "sha256": "efae8ed31a65438c0e5e84f65040a70a778612c0f31cbd29c82c98f3ea316033",
+      "sha256": "fdd9e6d4292c840d4878a953b0dc4fb9e7af448f88460f4d8f2c0126262de113",
       "minRuntimeVersion": "1.0.0"
     },
     {
@@ -25,7 +25,7 @@
       "iconUrl": "https://mangadex.org/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v0.1.0.wasm",
-      "sha256": "786f8b3e9342b584e106b0c484f6b7bbe7e443790928ca0531de61ac97226da6",
+      "sha256": "702ae2c83af056c32496f9305330b052eb43aa012c31e33bd94d4e31f888fc3c",
       "minRuntimeVersion": "1.0.0"
     }
   ]
