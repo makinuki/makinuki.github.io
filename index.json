@@ -1,31 +1,31 @@
 {
   "version": 1,
-  "updatedAt": 1787217949,
+  "updatedAt": 1787496803,
   "sources": [
     {
       "id": "asurascans",
       "name": "Asura Scans",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "abiVersion": 1,
       "lang": "en",
       "baseUrl": "https://asurascans.com",
       "iconUrl": "https://asurascans.com/favicon.ico",
       "nsfw": false,
-      "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v1.0.0.wasm",
-      "sha256": "50f92f45d984b2b42cb9c09aa9990693e00fbb25587860de01439ba130f4bacd",
+      "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v1.1.0.wasm",
+      "sha256": "82229c21b9d2628b11bb0bba5b4d564d20d1129560851f3805b2425d42c57a8e",
       "minRuntimeVersion": "1.0.0"
     },
     {
       "id": "mangadex",
       "name": "MangaDex",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "abiVersion": 1,
       "lang": "multi",
       "baseUrl": "https://mangadex.org",
       "iconUrl": "https://mangadex.org/favicon.ico",
       "nsfw": false,
-      "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v1.0.0.wasm",
-      "sha256": "7ac2669b3a312b77c24fc5a32bf048ac17a657bd17b3f60b463696a6ebcd9714",
+      "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v1.1.0.wasm",
+      "sha256": "604f5d22271aaebe24403200f8247b3e343b48eaece95598b39a70eadc3f41ac",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangadex.network",
