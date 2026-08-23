@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://makinuki.github.io/schemas/manga.schema.json",
+  "title": "MakiNuki MangaItem & PageResult",
+  "description": "search() output validates against PageResult, whose items are MangaItem.",
+  "$ref": "#/$defs/PageResult",
+  "$defs": {
+    "MangaItem": {
+      "type": "object",
+      "required": ["id", "title"],
+      "if": { "required": ["covers"] },
+      "then": { "required": ["coverUrl"] },
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique ID scoped to this source"
+        },
+        "title": { "type": "string" },
+        "coverUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Absent when the title has no usable artwork; hosts treat absence as no cover available"
+        },
+        "latestChapter": {
+          "type": "string",
+          "description": "e.g. 'Ch. 142'"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Web URL to the series"
+        },
+        "covers": {
+          "type": "array",
+          "description": "Additional renditions of the cover artwork; entries are distinct URLs and never duplicate coverUrl. Presupposes a canonical locator: omitted when coverUrl is absent.",
+          "items": { "$ref": "#/$defs/CoverVariant" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "CoverVariant": {
+      "type": "object",
+      "required": ["url"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Served pixel width, when the source declares it"
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Served pixel height, when the source declares it"
+        }
+      },
+      "additionalProperties": false
+    },
+    "PageResult": {
+      "type": "object",
+      "required": ["page", "hasNextPage", "items"],
+      "properties": {
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "hasNextPage": {
+          "type": "boolean"
+        },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/MangaItem" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
