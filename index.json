@@ -12,7 +12,7 @@
       "iconUrl": "https://asurascans.com/images/logo.webp",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v1.1.3.wasm",
-      "sha256": "3a2eecfc3e82a8a867fc634ac6fa044c6a93ae3a331fb3e707c8712e38d2d4af",
+      "sha256": "87f88e85b3a618335b829fc4f65989a675846a302bc15be0506b7a878ca173c8",
       "minRuntimeVersion": "1.0.0"
     },
     {
@@ -25,7 +25,7 @@
       "iconUrl": "https://atsu.moe/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/atsumaru-v1.0.0.wasm",
-      "sha256": "7f3c1f5dcd92939de361ea02de614e42b1eb409f04fcaafc73817e0a20237a58",
+      "sha256": "0893a9e773e21a1833f7ec66b2a934d0bd37ba99f948b16bee5287825fb77a85",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "atsu.moe"
@@ -41,7 +41,7 @@
       "iconUrl": "https://batcave.biz/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/batcave-v1.0.0.wasm",
-      "sha256": "de02753e36a7dede954d64ecca344dd083875becfb4fdef1e193d156b06b9715",
+      "sha256": "46d15f5503c78cd1a6aacde8db9b9a71a29d51785940f466dc7086824eb544aa",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "batcave.biz"
@@ -57,7 +57,7 @@
       "iconUrl": "https://cubari.moe/static/favicon.png",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/cubari-v1.0.0.wasm",
-      "sha256": "e783cfad1efeab1c50c0553c223e7aa36f9a7308a203a38e555bffe1ca938a35",
+      "sha256": "6730861aefdab573fa6774744759370d6819506802f0853ccaf090fbc752d2a9",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "cubari.moe",
@@ -92,7 +92,7 @@
       "iconUrl": "https://kagane.to/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/kagane-v1.0.0.wasm",
-      "sha256": "8e8513a2cf5c8ed977263027eb7398920742873d382886b580fa7ef6e5159a9c",
+      "sha256": "0650754da248076862f604a7e25dcc4727e1d288c7d07492ca58c2fa5bfc22d1",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "kagane.to",
@@ -110,7 +110,7 @@
       "iconUrl": "https://mangaball.net/favicon.ico",
       "nsfw": true,
       "wasmUrl": "https://makinuki.github.io/wasm/mangaball-v1.0.0.wasm",
-      "sha256": "9c51443ca82699062eeb899f55e62a1eac44de2120d906ff0b45c2f11e9015b4",
+      "sha256": "bc56fd3deb1e971c2eb2c773d6c2221b42220eddd8d181c6dae10781ee0132dc",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangaball.net",
@@ -128,7 +128,7 @@
       "iconUrl": "https://mangadex.org/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v1.1.0.wasm",
-      "sha256": "ba7eb71dc3565524212d42581d904bb72c8dd802e0c44afe9cdfdd1c55b1e61e",
+      "sha256": "4696a5e5ae67e86a8d1d0d01a15fa19dd098fa6ea9bcdff1ad99351a4b8dffe5",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangadex.network",
@@ -145,7 +145,7 @@
       "iconUrl": "https://mangadot.net/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangadotnet-v1.0.0.wasm",
-      "sha256": "386d2db14c53c5e4a5b8ada2c7a861a712aa6cb89cd6d2ae2dc1f3ca28cf531f",
+      "sha256": "16a029938cb6ae67c6d98f8f096341f798b68654a910b53648527c7fb8b40392",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangadot.net"
@@ -161,7 +161,7 @@
       "iconUrl": "https://mangafire.to/assets/mangafire/favicon.svg",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangafire-v1.0.0.wasm",
-      "sha256": "6d37ac9809e8791bcf9bf2a51dfa5c3bfafbcd6abcfa5b3a3171084ae59c4012",
+      "sha256": "6342ad7946dfc0dc2d2c8c64ff4041bda1f8bfa15db63bab9878c32042d7a983",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangafire.to",
@@ -180,7 +180,7 @@
       "iconUrl": "https://www.mangakakalove.com/images/logo.png",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangakakalot-v1.0.0.wasm",
-      "sha256": "bc3869fe495cceb4a20a19b93574ae8dd08865fa1740a1090e6164d17d79f209",
+      "sha256": "830c5dac1652dfd77b0023bdafafce00591c172cd35571d2a2f1567fa901b86e",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangakakalove.com",
@@ -202,7 +202,7 @@
       "iconUrl": "https://omegascans.org/favicon.ico",
       "nsfw": true,
       "wasmUrl": "https://makinuki.github.io/wasm/omegascans-v1.0.0.wasm",
-      "sha256": "9780dc7ad4b7ff6ab1e1457ddd1cb87dafdf28cccdafcabc6c73f4350ebc640d",
+      "sha256": "8e0a44d5c911c4a691e49d5983128d500e85a4644fde9aebf213924b536723ed",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "omegascans.org",
@@ -220,7 +220,7 @@
       "iconUrl": "https://weebcentral.com/static/images/brand.png",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/weebcentral-v1.0.0.wasm",
-      "sha256": "c736e81ff95c0a794c06fc02f899579faeca8bfecf0791ad55f94c5b1c27f893",
+      "sha256": "74e05be2f554ced3b4cc1167d0f257d3df8091e2a0b259371d83ccc0f7c6df8e",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "weebcentral.com",
