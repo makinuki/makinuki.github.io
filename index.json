@@ -12,7 +12,7 @@
       "iconUrl": "https://asurascans.com/images/logo.webp",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/asurascans-v1.1.3.wasm",
-      "sha256": "ecc39caa42f15216ef33ca386edaaca8971cc957c1c11d58ba638c0eca5b5125",
+      "sha256": "c064b4dc631c588f8c22e18a36d03851556cf815d0b5da6a9df64885533cf6d2",
       "minRuntimeVersion": "1.0.0"
     },
     {
@@ -25,7 +25,7 @@
       "iconUrl": "https://mangadex.org/favicon.ico",
       "nsfw": false,
       "wasmUrl": "https://makinuki.github.io/wasm/mangadex-v1.1.0.wasm",
-      "sha256": "7ee084eb6f94071a074fcd299c88831208aa01c945596b51e23bc8ce4f36aeff",
+      "sha256": "7c961eb12037b3bffde6dbf99a43d366120b971aad740b4c0534319eebf0fe10",
       "minRuntimeVersion": "1.0.0",
       "allowedHosts": [
         "mangadex.network",
